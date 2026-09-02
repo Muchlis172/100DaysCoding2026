@@ -11,7 +11,7 @@ public class day1 { // Class menjadi tempat utama untuk menulis code
          */
   
          /**
-          * komen dokumentasi biasa digunakan untuk memberi penjelasan detail biasanya pada method
+          * komen dokumentasi biasa digunakan untuk memberi penjelasan detail biasanya pada method dan ini menggunakan tag
           * @author Nama Anda(seperti ini)
           */
     }
