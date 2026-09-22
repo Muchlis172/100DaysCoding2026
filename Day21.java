@@ -1,4 +1,4 @@
-public class Dat21 {
+public class Day21 {
     public static void main(String[] args) {
         
         String strByte = "120";
