@@ -1,4 +1,4 @@
-public class LuasLingkaran {
+public class Day25 {
     public static void main(String[] args) {
         double r = 7.0; 
         double luas = 3.14 * r * r;
