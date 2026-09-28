@@ -6,15 +6,10 @@ public class Day27 {
         System.out.println("Nilai awal: " + angka);
        
         angka++; 
-        System.out.println("Setelah angka++: " + angka);  
-        
-        ++angka; 
-        System.out.println("Setelah ++angka: " + angka);
-        
+        System.out.println("increment angka++: " + angka);  
+ 
         angka--; 
-        System.out.println("Setelah angka--: " + angka);
-       
-        --angka; 
-        System.out.println("Setelah --angka: " + angka); 
+        System.out.println("decrement angka--: " + angka);
+      
     }
 }
