@@ -23,7 +23,7 @@ class Day51{
     for(int i = 1; i <= 10; i++){
       sum +=i;
     }
-    System.out.println("Jumlah angka 1-10 = ")+i;
+    System.out.println("Jumlah angka 1-10 = "+1);
     
   }
 }
