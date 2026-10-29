@@ -13,7 +13,7 @@ class Day58{
       }
     }
     System.out.println("Mencetak angka Genap N - 1 : ");
-    for(int i = N; i <= 1; i--){
+    for(int i = N; i >= 1; i--){
       if(i%2==0){
         System.out.print(i+" ");
       }
