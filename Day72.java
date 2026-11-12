@@ -6,10 +6,10 @@ class Day72{
 
     while(true){
       int angka = sc.nextInt();
+      int total=0;
       if(angka%2==0){
-        System.out.println(angka+" genap");
+        System.out.println(total+angka);
       }else{
-        System.out.println(angka+" ganjil\nStop");
         break;
       }
     }
