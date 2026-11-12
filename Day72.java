@@ -7,7 +7,7 @@ class Day72{
     int total = 0;
     while(true){
       int angka = sc.nextInt();
-      if(angka%2==0){
+      if(angka>=0){
         System.out.println(total+angka);
       }else{
         break;
