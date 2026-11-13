@@ -32,8 +32,6 @@ public class Day73 {
                 case 4:
                     System.out.println("\n=========================");
                     System.out.println("Total Belanja Anda: Rp " + totalBayar);
-                    System.out.println("Terima kasih sudah memesan!");
-                    System.out.println("=========================");
                     break;
                 default:
                     System.out.println("-> Menu tidak tersedia! Silakan pilih nomor 1 sampai 4.");
