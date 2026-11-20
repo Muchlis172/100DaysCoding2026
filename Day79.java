@@ -1,20 +1,15 @@
 import java.util.Scanner;
 
-class Day78{
+class Day79{
   public static void main(String[]args){
     Scanner sc = new Scanner(System.in);
     int []nilai = new int[5];
-    double ratarata,total = 0;
     for(int i = 0; i < nilai.length; i++){
       System.out.println("Masukkan nilai: ");
       nilai[i] = sc.nextInt(); 
     }
-    for(int nilaiEch : nilai) {
-      System.out.println("nilai: " + nilaiEch);
-      total += nilaiEch;
-    }
-    ratarata = total/nilai.length;
-    System.out.println("Total nilai     : "+total);
-    System.out.println("Rata-rata nilai : "+ratarata);
+    System.out.print("masukkan indeks array yg ingin kamu lihat(0-4): ");
+    int indeks = sc.nextInt();
+    System.out.println("Nilai ke-"+(indeks+1)+": "+nilai[indeks]);
   }
 }
