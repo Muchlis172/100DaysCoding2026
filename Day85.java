@@ -9,12 +9,12 @@ class Day85{
       System.out.print("Nilai ke-"+(i+1)+": ");
       nilai[i] = sc.nextInt();
     }
-    int max = nilai[0];
+    int min = nilai[0];
     for(int i = 0;i < nilai.length;i++){
-      if(max > nilai[i]){
-        max=nilai[i];
+      if(min > nilai[i]){
+        min=nilai[i];
       }
     }
-    System.out.println("Nilai maksimal/tertinggi kamu: "+max);
+    System.out.println("Nilai minimal/terendah kamu: "+min);
   }
 }
